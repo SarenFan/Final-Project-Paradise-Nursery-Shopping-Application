@@ -1,0 +1,33 @@
+/* App.css */
+
+.landing-page {
+  /* You can replace this URL with your own image link or local path */
+  background-image: url('https://cdn.pixabay.com/photo/2020/08/01/06/10/leaves-5454661_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Makes the text readable against a dark background */
+  text-align: center;
+}
+
+.get-started-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
